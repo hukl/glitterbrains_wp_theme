@@ -20,7 +20,7 @@ h2 {
 }
 
 
-p {
+div.post p {
     font-weight: 300;
     padding-right: 60px;
 }

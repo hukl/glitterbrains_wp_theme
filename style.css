@@ -29,6 +29,16 @@ div.post {
     margin-bottom: 4em;
 }
 
+div.post a {
+    text-decoration: none;
+    color: #FF0099;
+}
+
+div.post h2 a {
+    text-decoration: none;
+    color: #F1F1F1;
+}
+
 a {
     text-decoration: none;
     color: #F1F1F1;

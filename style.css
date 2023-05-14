@@ -99,3 +99,11 @@ div.post h2 a:hover {
 div.post h2 a:hover::before {
     width:100%;
 }
+
+.error-404 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 1rem;
+}

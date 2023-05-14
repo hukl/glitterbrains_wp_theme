@@ -107,3 +107,11 @@ div.post h2 a:hover::before {
     justify-content: center;
     padding: 4rem 1rem;
 }
+
+.widget_podlove_recent_episodes_widget {
+    padding: 3rem 0;
+}
+
+.widget_podlove_recent_episodes_widget a {
+    color: #ffbb5b;
+}

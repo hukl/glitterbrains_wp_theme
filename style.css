@@ -43,6 +43,11 @@ div.post h2 a {
     color: #F1F1F1;
 }
 
+div.post h1, h2, h3, h4, h5, h6 {
+    margin-top: 2rem;
+    padding: 0;
+}
+
 a {
     text-decoration: none;
     color: #F1F1F1;

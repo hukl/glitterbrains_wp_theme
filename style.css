@@ -3,9 +3,16 @@
   :root { font-family: 'Inter var', sans-serif; line-height: 1.6;}
 }
 
+:root {
+    --color-yellow: #ffbb5b;
+    --color-neon-pink: #FF0099;
+    --font-color: #fffcf8;
+}
+
+
 html, body {
     background-color: #0F1019;
-    color: #F1F1F1;
+    color: var(--font-color);
 }
 
 h1 {
@@ -35,12 +42,12 @@ div.post {
 
 div.post a {
     text-decoration: none;
-    color: #ffbb5b;
+    color: var(--color-yellow);
 }
 
 div.post h2 a {
     text-decoration: none;
-    color: #F1F1F1;
+    color: var(--font-color);
 }
 
 div.post h1, h2, h3, h4, h5, h6 {
@@ -50,20 +57,20 @@ div.post h1, h2, h3, h4, h5, h6 {
 
 a {
     text-decoration: none;
-    color: #F1F1F1;
+    color: var(--font-color);
 }
 
 a:hover, div.post a:hover {
-    color: #FF0099;
+    color: var(--color-neon-pink);
 }
 
 div.post h2 a {
     background-image: linear-gradient(
       to right,
-      #FF0099,
-      #FF0099 25%,
-      #ffbb5b 50%,
-      #F1F1F1 50%
+      var(--color-neon-pink),
+      var(--color-neon-pink) 25%,
+      var(--color-yellow) 50%,
+      var(--font-color) 50%
     );
     background-size: 200% 100%;
     background-position: 100%;
@@ -79,9 +86,9 @@ div.post h2 a:before {
     content: '';
     background: linear-gradient(
         to right,
-        #FF0099,
-        rgba(255,0,153, 1),
-        rgba(255,187,91, 1)
+        var(--color-neon-pink),
+        var(--color-neon-pink),
+        var(--color-yellow)
     );
     display: block;
     position: absolute;
@@ -100,6 +107,18 @@ div.post h2 a:hover::before {
     width:100%;
 }
 
+.single-post-headline {
+    background-image: linear-gradient(
+      to right,
+      var(--color-neon-pink) 20%,
+      var(--color-yellow) 66%,
+      var(--font-color) 150%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .error-404 {
     display: flex;
     flex-direction: row;
@@ -113,5 +132,5 @@ div.post h2 a:hover::before {
 }
 
 .widget_podlove_recent_episodes_widget a {
-    color: #ffbb5b;
+    color: var(--color-yellow);
 }

@@ -76,7 +76,8 @@ div.post h2 a {
       var(--color-neon-pink),
       var(--color-neon-pink) 25%,
       var(--color-yellow) 50%,
-      var(--font-color) 50%
+      var(--color-yellow) 50%,
+      var(--font-color) 100%
     );
     background-size: 200% 100%;
     background-position: 100%;

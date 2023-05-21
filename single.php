@@ -7,7 +7,7 @@
             <h1><a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a></h1>
 
             <div class="post">
-                <h2><?php the_title(); ?></h2>
+                <h2 class="single-post-headline"><?php the_title(); ?></h2>
                 <p>
                     <?php the_content(); ?>
                     <?php wp_link_pages(); ?>

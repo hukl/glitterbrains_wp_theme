@@ -14,6 +14,12 @@
                     <?php edit_post_link(); ?>
                 </p>
             </div>
+
+            <?php
+              if ( comments_open() || get_comments_number() ) {
+                comments_template();
+              }
+            ?>
     </div>
     <div class="col-sm-4">
         <p><img src="https://thatboatlife.com/wp-content/themes/glitterbrains/glitterbrains.jpg" width="350" height="350" alt="Glitterbrains"></p>

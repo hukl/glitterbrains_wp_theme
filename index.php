@@ -1,11 +1,8 @@
-<?php get_header() ?>
-  <body>
+  <?php get_header() ?>
     <div class="container">
       <div class="row">
         <div class="col-sm-2"></div>
         <div class="col-sm-6">
-            <h1><a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a></h1>
-
             <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
             <div class="post">

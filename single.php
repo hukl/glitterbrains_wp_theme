@@ -3,7 +3,7 @@
       <div class="row">
         <div class="col-sm-2"></div>
         <div class="col-sm-6">
-            <div class="post">
+            <div class="post single-post">
                 <h2 class="single-post-headline"><?php the_title(); ?></h2>
                 <p>
                     <?php the_content(); ?>

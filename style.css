@@ -115,3 +115,7 @@ div.post h2 a:hover::before {
 .widget_podlove_recent_episodes_widget a {
     color: #ffbb5b;
 }
+
+ol.comment-list {
+    padding-left: 0;
+}

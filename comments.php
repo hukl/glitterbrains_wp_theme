@@ -21,7 +21,7 @@ if ( post_password_required() ) {
 <div id="comments" class="comments-area">
 
 	<?php if ( have_comments() ) : ?>
-		<h2 class="comments-title">
+		<h4 class="comments-title">
 			<?php
 			printf(
 				_nx(
@@ -35,7 +35,7 @@ if ( post_password_required() ) {
 				'<span>' . get_the_title() . '</span>'
 			);
 			?>
-		</h2>
+		</h4>
 
 		<ol class="comment-list">
 			<?php

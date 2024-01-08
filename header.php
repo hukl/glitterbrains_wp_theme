@@ -11,5 +11,5 @@
   </head>
   <body>
     <div class="container theme-header">
-      <h1><a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a></h1>
+      <h1><a href="<?php bloginfo('url'); ?>" title="Glitterbrains">Glitter<wbr>brains</a></h1>
     </div>

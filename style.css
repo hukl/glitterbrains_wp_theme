@@ -27,6 +27,16 @@ h2 {
     padding: 5px 0;
 }
 
+h3 {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 1.25em;
+    font-weight: 400;
+}
+
 li {
     padding: 2px 0;
 }
@@ -36,6 +46,7 @@ li {
     align-items: center;
     justify-content: center;
 }
+
 
 div.post p {
     font-weight: 300;
@@ -66,7 +77,7 @@ a {
     color: var(--font-color);
 }
 
-a:hover, div.post a:hover {
+a:hover, div.post a:hover, div.gbr-archive-podcast-episode a:hover {
     color: var(--color-neon-pink);
 }
 
@@ -179,4 +190,12 @@ cite, cite > a {
 .comment-form-comment, .comment-reply-title {
     display: flex;
     flex-direction: column;
+}
+
+div.gbr-archive-podcast-episode a {
+    color: var(--color-yellow);
+}
+
+div.gbr-archive-podcast-episode span {
+    font-size: 0.8em;
 }

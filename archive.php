@@ -4,6 +4,10 @@
         <div class="col-sm-2"></div>
 
         <div class="col-sm-6">
+          <div>
+            <h2 class="archive-title">Archiv</h2>
+          </div>
+
         <?php foreach (\Podlove\get_podcast()->episodes() as $episode): ?>
           <div class="gbr-archive-podcast-episode">
             <a href="<?php echo $episode->url() ?>"><h4><?php echo $episode->title() ?></h4></a>

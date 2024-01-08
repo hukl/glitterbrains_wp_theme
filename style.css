@@ -192,6 +192,12 @@ cite, cite > a {
     flex-direction: column;
 }
 
+/* Archiv */
+
+.archive-title {
+    color: var(--color-neon-pink);
+}
+
 div.gbr-archive-podcast-episode a {
     color: var(--color-yellow);
 }

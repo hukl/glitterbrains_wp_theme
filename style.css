@@ -162,8 +162,8 @@ div.single-post {
     margin-bottom: 2rem;
 }
 
-ol.comment-list {
-    padding-left: 0;
+ol.children {
+    padding-top: 20px;
 }
 
 .comment {

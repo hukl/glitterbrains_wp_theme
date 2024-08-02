@@ -1,8 +1,7 @@
   <?php get_header() ?>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-2"></div>
-        <div class="col-sm-6">
+  <div class="container">
+      <div class="sm:flex sm:flex-row">
+        <div class="sm:basis-2/3">
         </div>
 
         <?php get_sidebar() ?>

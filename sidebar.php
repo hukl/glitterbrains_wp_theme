@@ -3,6 +3,7 @@
   <?php dynamic_sidebar( 'primary' ); ?>
   <p><a href="/podcast/">Archiv</a></p>
   <p><a href="https://podcasts.social/@glitterbrains">Mastodon</a></p>
+  <p><a href="https://glitterbrains.org/support">Glitterbrains Unterstützen</a></p>
   <p><a href="/impressum/">Impressum</a></p>
   <p><a href="/datenschutzerklarung/">Datenschutzerklärung</a></p>
 </div>

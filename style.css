@@ -41,6 +41,14 @@ li {
     padding: 2px 0;
 }
 
+dt {
+    font-weight: 700;
+}
+
+dd {
+    padding-left: 1em;
+}
+
 .theme-header {
     display: flex;
     align-items: center;
@@ -99,7 +107,7 @@ div.post h2 a {
     -webkit-text-fill-color: transparent;
     transition: all 0.3s ease-in-out;
 }
-  
+
 div.post h2 a:before {
     content: '';
     background: linear-gradient(
@@ -116,11 +124,11 @@ div.post h2 a:before {
     height: 3px;
     transition: all 0.3s ease-in-out;
 }
-  
+
 div.post h2 a:hover {
    background-position: 0;
 }
-  
+
 div.post h2 a:hover::before {
     width:100%;
 }
